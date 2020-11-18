@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Team 13 Project</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="testbox">
+      <form action="/">
+        <h1>Covid Questionaire</h1>
+        <p class="question">Example Symptoms</p>
+        <div class="question-answer">
+          <label><input type="checkbox" value="none" name="visited" /> Coughing</label>
+          <label><input type="checkbox" value="none" name="visited" /> Fever</label>
+          <label><input type="checkbox" value="none" name="visited" /> Congestion</label>
+          <label><input type="checkbox" value="none" name="visited" /> Sneezing</label>
+          <label><input type="checkbox" value="none" name="visited" /> Headache</label>
+          <label><input type="checkbox" value="none" name="visited" /> Migrane</label>
+          <label><input type="checkbox" value="none" name="visited" /> Lack of Taste</label>
+          <label><input type="checkbox" value="none" name="visited" /> Lack of Smell</label>
+
+        
+          
+        </div>
+        <p class="question">Any other unlisted symptoms?</p>
+        <textarea rows="5"></textarea>
+        <p class="question">Have you tested positive previously?</p>
+        <div class="question-answer">
+          <label><input type="radio" value="none" name="needed" /> Yes</label>
+          <label><input type="radio" value="none" name="needed" /> No</label>
+          <label><input type="radio" value="none" name="needed" /> Only antibodies</label>
+        </div>
+        <p class="question">We're you knowingly exposed at any time in the last two weeks?</p>
+        <textarea rows="5"></textarea>
+        <p class="question">How would you rate your health currently?</p>
+        <div class="question-answer">
+          <label><input type="radio" value="none" name="easy" /> Very Good</label>
+          <label><input type="radio" value="none" name="easy" /> Good</label>
+          <label><input type="radio" value="none" name="easy" /> Average</label>
+          <label><input type="radio" value="none" name="easy" /> Below Average</label>
+          <label><input type="radio" value="none" name="easy" /> At Risk</label>
+        </div>
+        <p class="question">Are you likely to visit these places in person?</p>
+        <table>
+          <tr>
+            <th class="first-col"></th>
+            <th>Not likely</th>
+            <th>Likely</th>
+            <th>Guranteed</th>
+          </tr>
+          <tr>
+            <td class="first-col">Grocery Store</td>
+            <td><input type="radio" value="none" name="professional" /></td>
+            <td><input type="radio" value="none" name="professional" /></td>
+            <td><input type="radio" value="none" name="professional" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">Doctor</td>
+            <td><input type="radio" value="none" name="Informative" /></td>
+            <td><input type="radio" value="none" name="Informative" /></td>
+            <td><input type="radio" value="none" name="Informative" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">Social Event</td>
+            <td><input type="radio" value="none" name="Visually" /></td>
+            <td><input type="radio" value="none" name="Visually" /></td>
+            <td><input type="radio" value="none" name="Visually" /></td>
+          </tr>
+        </table>
+        <p class="question">What is the likelihood that you will visit the website again?</p>
+        <div class="question-answer">
+          <label><input type="radio" value="none" name="likelihood" /> Extremely likely</label>
+          <label><input type="radio" value="none" name="likelihood" /> Very likely</label>
+          <label><input type="radio" value="none" name="likelihood" /> Moderately likely</label>
+          <label><input type="radio" value="none" name="likelihood" /> aSlightly likely</label>
+          <label><input type="radio" value="none" name="likelihood" /> Not at all likely</label>
+        </div>
+        <p class="question">Please add any comments you have for improving the website. We welcome suggestions on specific areas for improvements, features you would like to see added to the site, and examples of what you consider good websites.</p>
+        <textarea rows="5"></textarea>
+        <div class="btn-block">
+          <button type="submit" href="/">Send</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
